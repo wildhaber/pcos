@@ -1,0 +1,25 @@
+{
+  "name": "pcos",
+  "version": "0.1.0",
+  "description": "Portable Component Oriented Styling",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wildhaber/pcos.git"
+  },
+  "keywords": [
+    "scss",
+    "css",
+    "scale",
+    "pcos"
+  ],
+  "author": "Raphael Wildhaber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wildhaber/pcos/issues"
+  },
+  "homepage": "https://github.com/wildhaber/pcos#readme"
+}
