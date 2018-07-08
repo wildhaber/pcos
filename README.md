@@ -1,3 +1,5 @@
+# An Introduction to Portable Component Oriented Styles (PCOS) with Sass
+
 Portable Component Oriented Styles (PCOS) is a methodology to structure Sass stylesheets for large-scale projects.  The primary goals of PCOS are keeping your stylesheets vital and maintainable during the complete lifetime of an application as well as creating components that are truly reusable across different projects by abstraction layers without messing around with variables.
 
 Important to say that PCOS is not re-inventing the wheel at all,  it combines concepts from ITCSS (Inverted Triangle CSS) by Harry Roberts, Naming conventions from the BEM methodology (Block-Element-Modifier) and Atomic Design introduced by Brad Frost.
@@ -201,7 +203,8 @@ The `styles.scss` only need to import the `components.scss`.
 
 Let's illustrate what we have created so far:
 
-(will follow)
+![level of abstraction for c-button](https://raw.githubusercontent.com/wildhaber/pcos/master/pcos-c-button-abstraction.png)
+
 
 So far we did not create a real game changer since we can only create one button component and the next would override this one. What if we want to namespace our button?
 
